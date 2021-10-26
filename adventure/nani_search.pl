@@ -1,3 +1,5 @@
+% Nani Search from _Adventures in Prolog_.
+
 room(kitchen).
 room(office).
 room(hall).
