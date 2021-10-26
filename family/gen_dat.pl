@@ -47,7 +47,7 @@ grandmother(GM, C) :-
     parent(GM, P),
     female(GM).
 
-grandfather(GF, C).
+grandfather(GF, C) :-
     parent(P, C),
     parent(GF, P),
     male(GF).
