@@ -14,3 +14,5 @@ parent(polly, tom).
 parent(polly, ben).
 parent(greg, polly).
 parent(patty, polly).
+
+mother(X) :- parent(X, Y), female(X).
