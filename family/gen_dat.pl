@@ -19,3 +19,6 @@ mother(M, C) :-
     parent(M, C),
     female(M).
 
+father(F, C) :-
+    parent(F, C),
+    male(F).
