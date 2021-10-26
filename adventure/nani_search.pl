@@ -29,3 +29,8 @@ tastes_yucky(broccoli).
 turned_off(flashlight).
 
 here(kitchen).
+
+look_in(Place) :-
+    location(Thing, Place),
+    write(Thing), nl,
+    fail.
